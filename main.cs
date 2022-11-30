@@ -21,17 +21,17 @@ class Program
         Console.Write("Enter lengths of third side : "); c = Convert.ToInt32(Console.ReadLine());
 
         // output
-        if ((a+b<=c)|| (b+c<=a) || (c+a<=b) || (a<=0) || (b<=0) || (c<=0)) 
+        if ((a + b <= c) || ( b + c <= a) || (c + a <= b) || ( a <= 0) || (b <= 0) || (c <= 0)) 
         {
             Console.WriteLine("\nIt is not a triangle.");
         }
-        else 
+        else
         {
-            if ((a==b)&&(b==c)&&(c==a)) 
+            if ((a == b) && (b == c) && (c == a)) 
             {
                 Console.WriteLine("\nIt is a equilateral triangle");
             }
-            else if ((a==b)||(b==c)||(c==a))
+            else if ((a == b) || (b == c) || (c == a))
             {
                 Console.WriteLine("\nIt is a isosceles triangle");
             }
